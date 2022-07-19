@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Template
+namespace JobBoard
 {
   public class Startup
   {
@@ -34,7 +34,7 @@ namespace Template
 
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello World!");
+        await context.Response.WriteAsync("It Ain't Working!");
       });
     }
   }
